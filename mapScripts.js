@@ -124,4 +124,3 @@ function createMarkers(json) {
     
     document.getElementById('count').innerHTML =  data.features.length + " features successfully found.";
   }
-}
