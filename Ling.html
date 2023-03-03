@@ -1,0 +1,11 @@
+        <div id="header">
+            <h1>Calgary Building Permit Search Platform</h1>
+        </div>
+
+        <div id="mapid"></div>
+
+        <form class="d-flex flex-row justify-content-sm-around" id="search-form" action="{{url_for('result')}}" method="POST">
+            <label class="serachLabel" for="date_range">Issue Date:</label>
+            <input class="dateRange" type="text" id="date_range" name="date_range" placeholder="Select date range">
+            <button class="searchBtn" id="search-btn" type="submit">Search</button>
+        </form>
